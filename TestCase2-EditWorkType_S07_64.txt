@@ -1,0 +1,37 @@
+Test Steps:
+1) Launch the app
+2) Click Login
+3) Login with the credentials
+4) Click on the App Laucher Icon left to Setup
+5) Click on View All
+6) Click on Work Types
+7) Click on the Arrow button at the end of the first result
+8) Click on Edit
+9) Enter Time Frame Start as '9'
+10) Enter Time Frame End as '18'
+11) Click on Save
+12) Verify the success message
+Expexted Result:
+The work Type should be edited successfully.
+Step Video:
+https://drive.google.com/file/d/1RFXejCY_v2mxLTeCk7H1gfhY1nGdKxI_/view?usp=sharing
+
+//div[@data-aura-rendered-by='18542:0']//input[1]
+//label[@for='18192:0']/following-sibling::input[1]
+html>body>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div>div>div>article>div:nth-of-type(3)>div>div>div>div>div:nth-of-type(12)>div>div>div>div>input
+//input[@data-interactive-lib-uid='149']
+//input[@data-aura-rendered-by='18198:0']
+
+//a[contains(@class,'slds-button slds-button--icon-x-small')]
+//a[@title='Show 2 more actions']
+
+//a[@role='menuitem']
+//a[@title='Edit']
+//li[@class='uiMenuItem']//a
+//li[@data-aura-class='uiMenuItem']//a
+
+
+//input[@data-interactive-lib-uid='217']
+html>body>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(5)>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div>div>div>article>div:nth-of-type(3)>div>div>div>div>div:nth-of-type(10)>div>div>div>div>input
+
+working ((//label[@class='label inputLabel uiLabel-left form-element__label uiLabel'])[7]/following-sibling::input)

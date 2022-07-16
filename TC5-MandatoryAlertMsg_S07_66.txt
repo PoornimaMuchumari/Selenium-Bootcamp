@@ -1,0 +1,19 @@
+Test Steps:
+1) Launch the app
+2) Click Login
+3) Login with the credentials
+4) Click on the App Laucher Icon left to Setup
+5) Click on View All
+6) Click on Work Types
+7) Click on New
+8) Enter Work Type Name as 'Bootcamp'
+9) Click on Save
+Expexted Result:
+"Complete this field." alert message should be displayed for Estimated Duration
+Step Video:
+https://drive.google.com/file/d/1Msc7OK6MCTWC737dfBmY0z7wkO0zO9v3/view?usp=sharing
+
+je.executeScript("arguments[0].scrollIntoView(true);", element);
+"javascript:window.scrollBy(250,350)"
+
+
